@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new design</title>
+    <style>
+        div {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 250px;
+            height: 30px;
+            font-size: 20px;
+        }
+        button {
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/adddesign" method="post">
+        <div>
+            <h2>Add new design</h2>
+        </div>
+        <div>
+            <input type="text" placeholder="Name" name="name">
+        </div>
+        <div>
+            <input type="text" placeholder="Type" name="type">
+        </div>
+        <div>
+            <input type="text" placeholder="Price (m2)" name="price">
+        </div>
+        <div>
+            <button type="submit">Add</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

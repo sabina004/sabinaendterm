@@ -1,0 +1,1351 @@
+body{
+    margin: 13px;
+}
+
+.logo{
+    position: absolute;
+width: 68.5px;
+height: 65px;
+left: 4%;
+top: 13px;
+}
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu a {
+    
+    padding: 1px 10px;
+    border-right: 1px solid #000000;
+    font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+position: relative;
+width: 72px;
+height: 38px;
+left: 57%;
+top: 16px;
+
+}
+.menu li{
+    left: 55;
+display: inline;
+}
+ul li a:hover::before{
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 2px;
+    background: #969696;
+    z-index: -1;
+    transform: scaleX(1);
+    transform-origin: left;
+
+}
+ul li a::before {
+    content: "";
+    width: 0px;
+    height: 10px;
+    background: #969696;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+}
+
+ul li a:hover::before {
+    width: 50%;
+    transform: translateX(100%);
+}
+
+.main{
+    position: absolute;
+    width: 617px;
+    height: 814.89px;
+    left: 53%;
+    top: 80px;
+    display: flex;
+}
+.main2{
+    position: absolute;
+width: 398px;
+height: 154px;
+left: 10%;
+top: 184.99px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 128px;
+line-height: 154px;
+
+
+color: #000000;
+
+}
+.main3{
+    position: absolute;
+width: 560px;
+height: 72.08px;
+left: 4%;
+top: 350.45px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+.main4{
+    position: absolute;
+width: 295px;
+height: 44px;
+left:13.5% ;
+top: 440.99px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #969696;
+}
+.about{
+    position: absolute;
+width: 53.1%;
+height: 738.17px;
+left: 0;
+top: 894.89px;
+}
+.us{
+    position: absolute;
+width: 162px;
+height: 58px;
+left: 58%;
+top: 927.97px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+}
+.us1{
+    position: absolute;
+width: 473.67px;
+height: 527.08px;
+left: 59%;
+top: 1008.47px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #969696;
+
+}
+.ks{
+    padding-left:30px ;
+}
+.advantages{
+    position: absolute;
+width: 227px;
+height: 58px;
+left: 7%;
+top: 1702.98px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+}
+.advantages1{
+    position: absolute;
+width: 158px;
+height: 158px;
+left: 8.8%;
+top: 1918.98px;
+
+
+}
+.advantages2{
+    position: absolute;
+width: 205px;
+height: 158px;
+left: 32.375%;
+top: 1918.98px;
+}
+.advantages3{
+    position: absolute;
+width: 158.52px;
+height: 158px;
+left: 57.3%;
+top: 1918.98px;
+
+background: url(image.png);
+mix-blend-mode: darken;
+
+}
+.advantages4{
+    position: absolute;
+    width: 159px;
+    height: 158px;
+    left: 80.3%;
+    top: 1918.97px;
+    
+    background: url(image.png);
+}
+.adv1{
+    position: absolute;
+width: 243.21px;
+height: 31px;
+left: 5.5%;
+top: 2100.97px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+text-align: center;
+
+}
+.adv2{
+    position: absolute;
+width: 237px;
+height: 65.15px;
+left: 31.5%;
+top: 2100.97px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+}
+.adv3{
+    position: absolute;
+width: 200px;
+height: 73px;
+left: 56%;
+top: 2100.98px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+}
+.adv4{
+    position: absolute;
+width: 186.71px;
+height: 31px;
+left: 79%;
+top: 2100.97px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+text-align: center;
+}
+.adv1text{
+    position: absolute;
+width: 286px;
+height: 158px;
+left: 3.8%;
+top: 2197.98px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #969696;
+}
+.adv2text{
+    position: absolute;
+width: 287px;
+height: 184px;
+left: 29.5%;
+top: 2197.97px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #969696;
+}
+.adv3text{
+    position: absolute;
+width: 270px;
+height: 158px;
+left: 53.5%;
+top: 2197.97px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #969696;
+}
+.adv4text{
+    position: absolute;
+width: 208px;
+height: 158px;
+left: 78%;
+top: 2197.97px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #969696;
+}
+.more1{
+position: absolute;
+width: 617px;
+height: 730.11px;
+left: 52.8%;
+top: 2511.89px;
+}
+.more2{
+    
+    position: absolute;
+    width: 48%;
+    height: 50%;
+    left: 70px;
+    top: 2563.49px;
+    
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+    
+    color: #969696;
+    
+}
+
+.contacts{
+    position:absolute;
+    background: #FFEEEE;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 3242px;
+}
+.contacts1{
+    position: absolute;
+width: 142px;
+height: 48px;
+left: 6.82%;
+top: 3315.63px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #000001;
+}
+.contacts2{
+    position: absolute;
+width: 550px;
+height: 31px;
+left: 6.8%;
+top: 3399.72px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #969696;
+}
+.contacts3{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 6.82%;
+top: 3472px;
+}
+.contacts4{
+    position: absolute;
+width: 111px;
+height: 31px;
+left: 10.76%;
+top: 3481px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #969696;
+}
+.contacts5{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 6.82%;
+top: 3551.11px;
+}
+.contacts6{
+    
+position: absolute;
+width: 250px;
+height: 31px;
+left: 10.76%;
+top: 3560.11px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #969696;
+}
+.sylka{
+    position: absolute;
+width: 325px;
+height: 31px;
+left: 6.82%;
+top: 3630.22px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #969696;
+}
+
+.contacts4:hover{
+    color:#000000;
+}
+.sylka:hover{
+    color: #000000;
+}
+.contacts6:hover{
+    color:#000000;
+}
+.btn1{
+    position: absolute;
+width: 400.5px;
+height: 80px;
+left: 10%;
+top: 568.99px;
+
+}
+.btn2{
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    left: 87.28px;
+    top: 3100.46px;
+    
+}
+@media screen and (max-width: 1190px) {
+    .main {
+      width: 45.6%;
+      height: 723.14px;
+left: 55.3%;
+top: 103.44px;
+    }
+    .main2{
+        width: 25%;
+height: 115px;
+left: 14.5%;
+top: 181.55px;
+font-weight: 600;
+font-size: 96px;
+line-height: 115px;
+    }
+    .main3{
+width: 474.1px;
+height: 72.08px;
+left: 7%;
+top: 320.55px;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+    }
+.main4{
+width: 295px;
+height: 44px;
+left: 14.9%;
+top: 390.05px;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+
+color: #969696;
+
+}
+.btn1{
+    width: 310px;
+    height: 70px;
+    left: 14.2%;
+    top: 521.55px;
+}
+.lol{
+    width: 300px;
+    height: 60px;
+}
+.about{
+width: 55.4%;
+height: 711.49px;
+left: 0px;
+top: 827.58px;
+}
+.us{
+width: 162px;
+height: 58px;
+left: 59%;
+top: 860.33px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.us1{
+    width: 32.7%;
+height: 496.67px;
+left: 62%;
+top: 960.33px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+.advantages{
+    top: 1650.71px;
+
+}
+.advantages1{
+    width: 12.2%;
+height: 142.2px;
+left: 8.8%;
+top: 1831.5px;
+}
+.advantages2{
+    width: 15.8%;
+height: 142.2px;
+left: 29.7%;
+top: 1831.5px;
+}
+.advantages3{
+    width: 12.2%;
+height: 142.2px;
+left: 56.5%;
+top: 1831.5px;
+}
+.advantages4{
+width: 12.2%;
+height: 142.2px;
+left: 78%;
+top: 1831.5px;
+
+}
+.adv1{
+    width: 18.5%;
+height: 76.4px;
+left: 7%;
+top: 2001.7px;
+
+}
+.adv2{
+    width: 18.1%;
+    height: 76.4px;
+    left: 29.4%;
+    top: 2001.7px;
+}
+.adv3{
+    width: 15.3%;
+    height: 76.4px;
+    left: 55.5%;
+    top: 2001.7px;
+}
+.adv4{
+    width: 16.2%;
+    height: 76.4px;
+    left: 77%;
+    top: 2001.7px;
+    
+}
+.adv1text{
+    width: 17.6%;
+    height: 140px;
+    left: 6.64%;
+    top: 2106.25px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #969696;
+    
+}
+.adv2text{
+    width: 18.8%;
+    height: 140px;
+    left: 30%;
+    top: 2106.25px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #969696;
+    
+}
+.adv3text{
+    position: absolute;
+    width: 17.3%;
+    height: 120px;
+    left: 54.5%;
+    top: 2106.25px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #969696;
+}
+.adv4text{
+    position: absolute;
+    width: 16%;
+    height: 100px;
+    left: 77.4%;
+    top: 2106.25px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #969696;
+}
+.more2{
+    position: absolute;
+width: 37.5%;
+height: 408.61px;
+left: 8.9%;
+top: 2571.09px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+color: #969696;
+}
+.btn2{
+    left: 9.2%;
+top: 2979.7px;
+}
+.more1{
+    width: 49%;
+height: 752.74px;
+left: 51%;
+top: 2460.96px;
+
+}
+.contacts{
+    width: 100%;
+height: 600.3px;
+left: 0px;
+top: 3210.7px;
+}
+.contacts4{
+left: 13%;
+}
+.contacts6{
+left: 13%;
+}
+.menu a{
+    left: 45%;
+
+}
+}
+
+@media screen and (max-width: 951px) {
+
+    .menu a{
+        left: 30%;
+    
+    }
+    .main{
+        width: 47%;
+        height: 639.39px;
+        left: 53%;
+        top: 79.61px;
+    }
+    .main3{
+        width: 46%;
+    }
+    .about{
+        width: 53%;
+        height: 673.07px;
+        top:719px;
+    }
+    .us{
+        left: 60%;
+top: 750.33px;
+    }
+    .us1{
+        width: 36.7%;
+    height: 496.67px;
+    left: 60%;
+    top: 800.33px;
+    }
+    .advantages{
+        left: 11.6%;
+      top: 1450.71px;
+    }
+    .advantages1{
+        width: 15.2%;
+height: 142.2px;
+left: 17.3%;
+top: 1673.13px;
+    
+    }
+    .advantages2{
+        width: 20%;
+        height: 142.2px;
+        left: 64%;
+        top: 1673.13px;
+    }
+    .advantages3{
+        width: 15.2%;
+height: 142.2px;
+left: 17.3%;
+top: 2220.42px;
+    }
+    .advantages4{
+width: 20%;
+height: 142.2px;
+left: 64%;
+top: 2220.42px;
+    }
+    .adv1{
+        width: 221.27px;
+        height: 76.4px;
+        left: 13%;
+        top: 1843.33px;
+    
+    }
+    .adv2{
+        width: 215.62px;
+        height: 76.4px;
+        left: 61%;
+        top: 1843.33px;
+    }
+    .adv3{
+        width: 181.96px;
+height: 76.4px;
+left: 16%;
+top: 2390.61px;
+
+    }
+    .adv4{
+        width: 193.27px;
+        height: 76.4px;
+        left: 63%;
+        top: 2390.61px;
+    }    
+    .adv1text{
+        width: 209.55px;
+height: 140px;
+left: 14.5%;
+top: 1947.87px;
+    }
+    .adv2text{
+        width: 223.81px;
+height: 140px;
+left: 61.5%;
+top: 1947.87px;
+    }
+    .adv3text{
+        width: 206.46px;
+height: 120px;
+left: 13.7%;
+top: 2493.98px;
+    }
+    .adv4text{
+        width: 189.24px;
+height: 100px;
+left: 63.5%;
+top: 2495.16px;
+    }
+    .more1{
+        top: 2700.09px;
+        width: 451.35px;
+height: 587.04px;
+    }
+    .more2{
+        top: 2715px;
+        width: 386px;
+height: 362.07px;
+left:7%;
+font-size: 40px;
+    }
+    .btn2{
+        top: 3100px;
+        left:7%;
+    }
+    .contacts{
+        width: 100%;
+height: 424px;
+top: 3282px;
+    }
+    .main4{
+        top: 450px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .rek{
+        position: absolute;
+        width: 430px;
+height: 65.5px;
+left: 0px;
+top: 0px;
+
+    }
+    .main{
+        position: absolute;
+width: 430px;
+height: 601.93px;
+left: 0px;
+top: 62.07px;
+opacity: 0.4;
+    }
+    .main2{position: absolute;
+        width: 299px;
+        height: 85.97px;
+        left: 68.97px;
+        top: 224.32px;
+        
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 115px;
+        /* or 120% */
+        
+        
+        color: #000000;
+        
+
+    }
+    .main3{
+        position: absolute;
+        width: 350px;
+        height: 48px;
+        left: 40px;
+        top: 363.03px;
+        
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height */
+        
+        
+        color: #000000;
+        
+    }
+    .main4{
+        position: absolute;
+        width: 295px;
+        height: 30.97px;
+        left: 67.5px;
+        top: 411.03px;
+        
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        
+        color: #000000;
+        
+        mix-blend-mode: normal;
+    }
+    .btn1{
+        position: absolute;
+width: 320.03px;
+height: 70px;
+left: 50.97px;
+top: 537.65px;
+
+background: #FFEEEE;
+    }
+    .us{
+        position: absolute;
+width: 135px;
+height: 48px;
+left: 147.5px;
+top: 724.27px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+    }
+    .us1{position: absolute;
+        width: 368px;
+        height: 680.82px;
+        left: 31px;
+        top: 832.18px;
+        
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        
+        color: #969696;        
+
+    }
+    .about{
+        position: absolute;
+width: 430px;
+height: 404.01px;
+left: 0px;
+top: 1720.9px;
+    }
+    /* Live communication */
+
+
+.adv1{position: absolute;
+width: 261px;
+height: 38px;
+left: 84.5px;
+top: 2727.7px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* image 10 */
+
+.advantages4{
+position: absolute;
+width: 157.77px;
+height: 157.77px;
+left: 136.49px;
+top: 4259.52px;
+
+background: url(image);
+}
+
+/* Professionalism */
+.adv4
+{
+position: absolute;
+width: 198px;
+height: 38px;
+left: 116px;
+top: 4446.1px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+}
+
+.adv4text{
+/* We take into account all the details up to the visualization stage, including specific furniture and materials. */
+
+
+position: absolute;
+width: 283.27px;
+height: 117.09px;
+left: 73.36px;
+top: 4512.91px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #969696;
+
+}
+
+/* image 16 */
+.advantages1{
+position: absolute;
+width: 158px;
+height: 158px;
+left: 140.12px;
+top: 2540.01px;
+
+background: url(image.png);
+mix-blend-mode: hard-light;
+opacity: 0.85;
+}
+
+/* image 16 */
+
+.advantages3{
+position: absolute;
+width: 158.52px;
+height: 158px;
+left: 136.49px;
+top: 3742.18px;
+
+background: url(image);
+mix-blend-mode: darken;
+
+}
+/* why are we? */
+.advantages{
+position: absolute;
+width: 229.58px;
+height: 37.2px;
+left: 100.21px;
+top: 2298.18px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+}
+
+/* Text *
+
+
+/* We create a unique interior that reflects the individuality of each customer. We always take into account your wishes and lifestyle in order to achieve the best result. */
+
+.adv1text{
+position: absolute;
+width: 283.27px;
+height: 158.5px;
+left: 73.37px;
+top: 2795.39px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #969696;
+
+}
+
+/* image 13 */
+.advantages2{
+
+position: absolute;
+width: 195.26px;
+height: 157.77px;
+left: 117.37px;
+top: 3087.32px;
+
+background: url(image);
+
+}
+/* Functionality of interiors */
+
+.adv2{
+position: absolute;
+width: 226.38px;
+height: 73.23px;
+left: 101.81px;
+top: 3274.77px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* We think through every square meter so that it is as useful as possible and works for you. We take care of the ideal zoning and arrangement of rooms to ensure the best result. */
+
+.adv2text{
+position: absolute;
+width: 283.27px;
+height: 184px;
+left: 77.48px;
+top: 3493.09px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #969696;
+
+
+}
+/* Comfort for the customer */
+
+.adv3{
+position: absolute;
+width: 253.54px;
+height: 73px;
+left: 81.49px;
+top: 3928.98px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* We provide a full range of services, from finding a construction team and coordinating work with contractors, to negotiating with suppliers. */
+
+.adv3text{
+position: absolute;
+width: 267.02px;
+height: 158px;
+left: 81.49px;
+top: 4030.79px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #969696;
+
+}
+.more1{
+    position: absolute;
+width: 430px;
+height: 458.11px;
+left: 0px;
+top: 4755px;
+}
+.more2{
+    top:5300px;
+}
+.btn2{
+    position: absolute;
+width: 210px;
+height: 60px;
+left: 96.5px;
+top: 5800.73px;
+}
+.contacts{
+    top: 6000px;
+    width: 100%;
+    height: 700px;
+}
+.lol2{
+    width: 197px;
+    height: 45px;
+}
+.contacts1{
+    position: absolute;
+width: 113px;
+height: 38px;
+left: 31px;
+top: 6100px;
+
+font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+
+color: #969696;
+
+}
+.contacts2{
+    position: absolute;
+width: 337.13px;
+height: 52px;
+left: 31px;
+top: 6200.5px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #969696;
+
+}
+.contacts3{
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    left: 31px;
+    top: 6300px;
+
+}
+.contacts4{
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 80px;
+    top: 6300px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    color: #969696;
+}
+.contacts5{
+    position: absolute;
+width: 34px;
+height: 40px;
+left: 31px;
+top: 6400.48px;
+
+}
+.contacts6{
+    position: absolute;
+width: 186px;
+height: 54px;
+left: 80px;
+top: 6400.48px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #969696;
+
+}
+.sylka{
+    
+position: absolute;
+width: 280px;
+height: 26px;
+left: 31px;
+top: 6504.15px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #969696;
+
+}
+.menu a{
+    left:14%;
+    font-size: 16px;
+}
+.ul li a:hover::before{
+    background: #000001;
+}
+
+}

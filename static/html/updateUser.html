@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update user</title>
+    <style>
+        div {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 250px;
+            height: 30px;
+            font-size: 20px;
+        }
+        button {
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/updateuser" method="post">
+        <div>
+            <h2>Update user by ID</h2>
+        </div>
+        <div>
+            <input type="number" placeholder="User ID" name="id">
+        </div>
+            <div class="insert">
+                <div>
+                    <input type="text" name="username" placeholder="Username">
+                </div>
+            </div>
+            <div class="insert">
+                <div>
+                    <input type="text" name="first_name" placeholder="First name">
+                </div>
+            </div>
+            <div class="insert">
+                <div>
+                    <input type="text" name="last_name" placeholder="Last name">
+                </div>
+            </div>
+            <div class="insert">
+                <div>
+                    <input type="text" name="phone" placeholder="Phone">
+                </div>
+            </div>
+            <div class="insert">
+                <div>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+            </div>
+        <div>
+            <button type="submit">Update</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

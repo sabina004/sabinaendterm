@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div style="display: flex; justify-content: center">
+            <h2>Registration</h2>
+        </div>
+        <form action="/register" method="post">
+        <div class="insert">
+            <div>
+                <input type="text" name="username" placeholder="Username">
+            </div>
+        </div>
+        <div class="insert">
+            <div>
+                <input type="text" name="first_name" placeholder="First name">
+            </div>
+        </div>
+        <div class="insert">
+            <div>
+                <input type="text" name="last_name" placeholder="Last name">
+            </div>
+        </div>
+        <div class="insert">
+            <div>
+                <input type="text" name="phone" placeholder="Phone">
+            </div>
+        </div>
+        <div class="insert">
+            <div>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center">
+            <button type="submit">Register</button>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 10px">
+            Already exist account?<a href="/auth"> Auth</a>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

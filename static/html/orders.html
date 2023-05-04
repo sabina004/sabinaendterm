@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/catalog.css">
+    <title>catalog</title>
+</head>
+<body>
+    <div class="header">
+        <img  class="logo" src="../imgs/logo.png">
+        <ul class="menu">
+            <li><a href="/">home</a></li>
+            <li><a href="/">about us</a></li>
+            <li><a href="/">advantages</a></li>
+            <li><a href="/">contacts</a></li>
+            <li><a href="/orders">orders</a></li>
+            <li><a href="/register">sign up</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Orders</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">User ID</th>
+                    <th scope="col">Design ID</th>
+                    <th scope="col">Created at</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{range .}}
+                <tr>
+                    <th scope="row">{{.OrderId}}</th>
+                    <td>{{.UserId}}</td>
+                    <td>{{.DesignId}}</td>
+                    <td>{{.CreatedAt}}</td>
+                </tr>
+                {{end}}
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

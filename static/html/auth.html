@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div style="display: flex; justify-content: center">
+            <h2>Authorization</h2>
+        </div>
+        <form action="/auth" method="post">
+        <div class="insert">
+            <div>
+                <input type="text" name="username" placeholder="Username">
+            </div>
+        </div>
+        <div class="insert">
+            <div>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center">
+            <button type="submit">Auth</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

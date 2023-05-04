@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete order</title>
+    <style>
+        div {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 250px;
+            height: 30px;
+            font-size: 20px;
+        }
+        button {
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/deleteorder" method="post">
+        <div>
+            <h2>Delete order by ID</h2>
+        </div>
+        <div>
+            <input type="number" placeholder="Order ID" name="id">
+        </div>
+        <div>
+            <button type="submit">Delete</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

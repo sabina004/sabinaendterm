@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/catalog.css">
+    <title>catalog</title>
+</head>
+<body>
+    <div class="header">
+        <img  class="logo" src="../imgs/logo.png">
+        <ul class="menu">
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../index.html">about us</a></li>
+            <li><a href="../index.html">advantages</a></li>
+            <li><a href="../index.html">contacts</a></li>
+            <li><a href="/orders">orders</a></li>
+            <li><a href="../index.html">sign up</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>Catalog</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Price (m2)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{range .}}
+                <tr>
+                    <th scope="row">{{.DesignId}}</th>
+                    <td>{{.Name}}</td>
+                    <td>{{.DesignType}}</td>
+                    <td>{{.Price}}</td>
+                </tr>
+                {{end}}
+            </tbody>
+        </table>
+
+
+    </div>
+
+</body>
+</html>

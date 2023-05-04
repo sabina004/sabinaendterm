@@ -1,0 +1,40 @@
+body, html {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 110px 0;
+    background: linear-gradient(240deg, rgba(28,197,255,1) 0%, rgba(169,221,129,1) 100%);
+}
+
+.container {
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    width: 400px;
+    padding: 10px 20px;
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.insert {
+    height: 80px;
+}
+
+button {
+    border: 1px solid black;
+    background-color: white;
+    width: 230px;
+    height: 40px;
+    transition: 100ms linear;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
